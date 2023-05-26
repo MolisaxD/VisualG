@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+   // Disciplina   : [Linguagem e Lógica de Programação]
+   // Professor   : Renisson Rodrigues de Souza
+   // Descrição   : Detectar tipo do triângulo
+   // Autor(a)    : Melissa Souza Borges
+   // Data atual  : 26/05/2023
+   Var
+      A, B, C: inteiro
+
+   Inicio
+      escreva("Insira um valor: ")
+      leia(A)
+      escreva("Insira um segundo valor: ")
+      leia(B)
+      escreva("Insira um terceiro valor: ")
+      leia(C)
+      limpatela
+      
+      se (A < B + C) e (B < A + C) e (C < A + B) entao
+           se (A = B) e (A = C) entao
+                 escreva("Estes valores formam um triângulo equilátero.")
+           senao se (A = B) ou (A = C) entao
+                 escreva("Estes valores formam um triângulo isósceles.")
+           senao
+                 escreva("Estes valores formam um triângulo escaleno.")
+           fimse
+      senao
+           escreva("Estes valores não formam um triângulo.")
+      fimse
+
+Fimalgoritmo
