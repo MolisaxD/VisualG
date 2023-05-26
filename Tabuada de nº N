@@ -1,0 +1,20 @@
+Algoritmo "semnome"
+   // Disciplina   : [Linguagem e Lógica de Programação]
+   // Professor   : Renisson Rodrigues de Souza
+   // Descrição   : Tabuada de 1 até N
+   // Autor(a)    : Melissa Souza Borges
+   // Data atual  : 26/05/2023
+   Var
+      N, i: inteiro
+
+   Inicio
+      escreva("Criar tabuada do número: ")
+      leia(N)
+	limpatela
+      
+      para i de 1 ate N faca
+           escreval(i, " *", N, " =",i * N)
+      fimpara
+
+
+Fimalgoritmo
