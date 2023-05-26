@@ -1,0 +1,20 @@
+Algoritmo "semnome"
+   // Disciplina   : [Linguagem e Lógica de Programação]
+   // Professor   : Renisson Rodrigues de Souza
+   // Descrição   : Conversão de Fahrenheit para Celsius
+   // Autor(a)    : Melissa Souza Borges
+   // Data atual  : 26/05/2023
+   Var
+      C, F: real
+
+   Inicio
+      escreval("CONVERSÃO FAHRENHEIT PARA CELSIUS")
+      escreva("Insira a temperatura em Fahrenheit: ")
+      leia(F)
+      C <- (5 * (F-32) / 9)
+      limpatela
+      escreval("Conversão: ")
+      escreva(F, "º F -> ", C, "° C")
+
+
+Fimalgoritmo
