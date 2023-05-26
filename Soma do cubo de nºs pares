@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+   // Disciplina   : [Linguagem e Lógica de Programação]
+   // Professor   : Renisson Rodrigues de Souza
+   // Descrição   : Soma do cubo de números pares entre A e B
+   // Autor(a)    : Melissa Souza Borges
+   // Data atual  : 26/05/2023
+   Var
+      i: inteiro
+      A, B, soma: real
+
+   Inicio
+         escreva("Digite o número A: ")
+         leia(A)
+         escreva("Digite o número B: ")
+         leia(B)
+         limpatela()
+
+         enquanto A < B faca
+              se A % 2 = 0 entao
+              soma <- soma + (A ^ 3)
+              fimse
+              A <- A + 1
+         fimenquanto
+         
+         escreval(soma)
+
+Fimalgoritmo
